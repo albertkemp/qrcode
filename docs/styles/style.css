@@ -63,3 +63,70 @@ button {
      between the labels and their text fields */
   margin-left: 0em;
 }
+@media (max-width:768px) {
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 2em;
+    border: 2px solid rgb(144, 143, 161);
+    border-radius: 0em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 2em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 2em sans-serif;
+  
+    /* Uniform text field size */
+    width: 600px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 2px solid rgb(32, 44, 214);
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: rgb(15, 34, 211);
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 10em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 180px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0em;
+  }
+}
