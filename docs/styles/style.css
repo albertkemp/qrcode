@@ -1,6 +1,7 @@
 body{
   background-color: #ffffff;
   font-family: 'Open Sans',sans-serif;
+  margin: 20px;
 }
 h1{
   font-family: 'Lato', sans-serif;
@@ -46,12 +47,7 @@ textarea {
   border: 1px solid black;
   padding: 15px;
   font-size: 20px;
-}
-
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: rgb(15, 34, 211);
+  font-family: 'Open Sans', sans-serif;
 }
 
 textarea {
